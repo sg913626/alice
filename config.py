@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 23114649
+API_HASH = "82b5ba213524eb9d1acfbe2c360a6a2c"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7421739261:AAG6-pt6xkfZCVr0ElS2vaamkmqbptxVcug"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://sg913626:sg913626@cluster0.ih5ju.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002379560731
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 7064997199
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/musizmasti"
+SUPPORT_GROUP = "https://t.me/musizmasti"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFgs5kAE2s8HvmBY0cC2JqWMibUhtJJ_khxGKIpPdcAGjbTmNqq1qWXHMP4IlGxmLL4OvOY7-gpyhOZr9IjtENb2G3WnuPwMUIrfcnJbJppPZCId6eYgjha6rKH4dKQX0W-aOu9vFXl-fIM2gOy4o2AIpHnOwlocIT8kvw8Wud-ZLfI8YXBLldJmzyP5Ywu-v0w0kJ9FByf9uc4_ywezrPmTJJRKHworqYvI9J6FV4PAY2jSd_LusXcnKwCQX10P60Q-Reof2pxTvLItqul_uwNDy9X_SvhpnwYlrYiNPDuZcxrCuGjQ2s0nHhM40Cu6gH9W8qLMpIXm94X9BH4vai-Hm4AOgAAAAGlG01PAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,20 +77,20 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://envs.sh/P9D.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://envs.sh/P9D.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/P9D.jpg"
+STATS_IMG_URL = "https://envs.sh/P9D.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/P9D.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/P9D.jpg"
+STREAM_IMG_URL = "https://envs.sh/P9D.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/P9D.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/P9D.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/P9D.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/P9D.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/P9D.jpg"
 
 
 def time_to_seconds(time):
